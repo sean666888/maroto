@@ -3,11 +3,12 @@ package pdf_test
 import (
 	"encoding/base64"
 	"fmt"
-	"github.com/Vale-sail/maroto/pkg/color"
-	"github.com/Vale-sail/maroto/pkg/consts"
-	"github.com/Vale-sail/maroto/pkg/pdf"
-	"github.com/Vale-sail/maroto/pkg/props"
 	"time"
+
+	"github.com/sean666888/maroto/pkg/color"
+	"github.com/sean666888/maroto/pkg/consts"
+	"github.com/sean666888/maroto/pkg/pdf"
+	"github.com/sean666888/maroto/pkg/props"
 )
 
 // ExampleNewMaroto demonstrates how to create maroto
@@ -324,7 +325,7 @@ func ExamplePdfMaroto_Barcode() {
 	// Do a lot of things on rows and columns...
 
 	m.Col(12, func() {
-		_ = m.Barcode("https://github.com/Vale-sail/maroto", props.Barcode{
+		_ = m.Barcode("https://github.com/sean666888/maroto", props.Barcode{
 			Percent:    75,
 			Proportion: props.Proportion{Width: 50, Height: 10},
 			Center:     true,
@@ -350,7 +351,7 @@ func ExamplePdfMaroto_QrCode() {
 
 	m.Row(rowHeight, func() {
 		m.Col(12, func() {
-			m.QrCode("https://godoc.org/github.com/Vale-sail/maroto", props.Rect{
+			m.QrCode("https://godoc.org/github.com/sean666888/maroto", props.Rect{
 				Left:    5,
 				Top:     5,
 				Center:  false,

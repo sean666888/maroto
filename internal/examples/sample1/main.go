@@ -3,13 +3,14 @@ package main
 import (
 	"encoding/base64"
 	"fmt"
-	"github.com/Vale-sail/maroto/pkg/color"
-	"github.com/Vale-sail/maroto/pkg/consts"
-	"github.com/Vale-sail/maroto/pkg/pdf"
-	"github.com/Vale-sail/maroto/pkg/props"
 	"io/ioutil"
 	"os"
 	"time"
+
+	"github.com/sean666888/maroto/pkg/color"
+	"github.com/sean666888/maroto/pkg/consts"
+	"github.com/sean666888/maroto/pkg/pdf"
+	"github.com/sean666888/maroto/pkg/props"
 )
 
 func main() {
@@ -41,14 +42,14 @@ func main() {
 			m.ColSpace(3)
 
 			m.Col(3, func() {
-				m.QrCode("https://github.com/Vale-sail/maroto", props.Rect{
+				m.QrCode("https://github.com/sean666888/maroto", props.Rect{
 					Center:  true,
 					Percent: 75,
 				})
 			})
 
 			m.Col(3, func() {
-				id := "https://github.com/Vale-sail/maroto"
+				id := "https://github.com/sean666888/maroto"
 				_ = m.Barcode(id, props.Barcode{
 					Center:     true,
 					Proportion: props.Proportion{Width: 50, Height: 10},

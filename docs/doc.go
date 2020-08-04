@@ -27,11 +27,11 @@ Installation
 
 To install the package on your system, run
 
-    go get github.com/Vale-sail/maroto
+    go get github.com/sean666888/maroto
 
 Later, to receive updates, run
 
-    go get -u -v github.com/Vale-sail/maroto/...
+    go get -u -v github.com/sean666888/maroto/...
 
 
 Quick Start

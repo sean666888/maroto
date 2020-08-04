@@ -4,10 +4,11 @@ import (
 	"bytes"
 	"encoding/base64"
 	"errors"
-	"github.com/Vale-sail/maroto/pkg/consts"
-	"github.com/Vale-sail/maroto/pkg/props"
+
 	"github.com/google/uuid"
 	"github.com/jung-kurt/gofpdf"
+	"github.com/sean666888/maroto/pkg/consts"
+	"github.com/sean666888/maroto/pkg/props"
 )
 
 // Image is the abstraction which deals of how to add images in a PDF

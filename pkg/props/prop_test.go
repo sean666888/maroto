@@ -1,10 +1,11 @@
 package props_test
 
 import (
-	"github.com/Vale-sail/maroto/pkg/consts"
-	"github.com/Vale-sail/maroto/pkg/props"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/sean666888/maroto/pkg/consts"
+	"github.com/sean666888/maroto/pkg/props"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestRectProp_MakeValid(t *testing.T) {

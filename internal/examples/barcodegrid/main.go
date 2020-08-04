@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/Vale-sail/maroto/pkg/consts"
-	"github.com/Vale-sail/maroto/pkg/pdf"
-	"github.com/Vale-sail/maroto/pkg/props"
 	"os"
 	"time"
+
+	"github.com/sean666888/maroto/pkg/consts"
+	"github.com/sean666888/maroto/pkg/pdf"
+	"github.com/sean666888/maroto/pkg/props"
 )
 
 func main() {
@@ -16,17 +17,17 @@ func main() {
 
 	m.Row(40, func() {
 		m.Col(2, func() {
-			m.Barcode("https://github.com/Vale-sail/maroto", props.Barcode{
+			m.Barcode("https://github.com/sean666888/maroto", props.Barcode{
 				Percent: 50,
 			})
 		})
 		m.Col(4, func() {
-			m.Barcode("https://github.com/Vale-sail/maroto", props.Barcode{
+			m.Barcode("https://github.com/sean666888/maroto", props.Barcode{
 				Percent: 75,
 			})
 		})
 		m.Col(6, func() {
-			m.Barcode("https://github.com/Vale-sail/maroto", props.Barcode{
+			m.Barcode("https://github.com/sean666888/maroto", props.Barcode{
 				Percent: 100,
 			})
 		})
@@ -34,19 +35,19 @@ func main() {
 
 	m.Row(40, func() {
 		m.Col(2, func() {
-			m.Barcode("https://github.com/Vale-sail/maroto", props.Barcode{
+			m.Barcode("https://github.com/sean666888/maroto", props.Barcode{
 				Center:  true,
 				Percent: 50,
 			})
 		})
 		m.Col(4, func() {
-			m.Barcode("https://github.com/Vale-sail/maroto", props.Barcode{
+			m.Barcode("https://github.com/sean666888/maroto", props.Barcode{
 				Center:  true,
 				Percent: 75,
 			})
 		})
 		m.Col(6, func() {
-			m.Barcode("https://github.com/Vale-sail/maroto", props.Barcode{
+			m.Barcode("https://github.com/sean666888/maroto", props.Barcode{
 				Center:  true,
 				Percent: 100,
 			})
@@ -55,17 +56,17 @@ func main() {
 
 	m.Row(40, func() {
 		m.Col(6, func() {
-			m.Barcode("https://github.com/Vale-sail/maroto", props.Barcode{
+			m.Barcode("https://github.com/sean666888/maroto", props.Barcode{
 				Percent: 50,
 			})
 		})
 		m.Col(4, func() {
-			m.Barcode("https://github.com/Vale-sail/maroto", props.Barcode{
+			m.Barcode("https://github.com/sean666888/maroto", props.Barcode{
 				Percent: 75,
 			})
 		})
 		m.Col(2, func() {
-			m.Barcode("https://github.com/Vale-sail/maroto", props.Barcode{
+			m.Barcode("https://github.com/sean666888/maroto", props.Barcode{
 				Percent: 100,
 			})
 		})
@@ -73,19 +74,19 @@ func main() {
 
 	m.Row(40, func() {
 		m.Col(6, func() {
-			m.Barcode("https://github.com/Vale-sail/maroto", props.Barcode{
+			m.Barcode("https://github.com/sean666888/maroto", props.Barcode{
 				Center:  true,
 				Percent: 50,
 			})
 		})
 		m.Col(4, func() {
-			m.Barcode("https://github.com/Vale-sail/maroto", props.Barcode{
+			m.Barcode("https://github.com/sean666888/maroto", props.Barcode{
 				Center:  true,
 				Percent: 75,
 			})
 		})
 		m.Col(2, func() {
-			m.Barcode("https://github.com/Vale-sail/maroto", props.Barcode{
+			m.Barcode("https://github.com/sean666888/maroto", props.Barcode{
 				Center:  true,
 				Percent: 100,
 			})

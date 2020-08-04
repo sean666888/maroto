@@ -1,3 +1,5 @@
+github.com/Vale-sail/maroto v0.27.1 h1:grLCMzd6LmTXS0BQ3UjmSYHQwBxwKyfrbSjl3N9cjzU=
+github.com/Vale-sail/maroto v0.27.1/go.mod h1:GrmgmSvAlAel490V8ER1vEBBxikerSMx8Y0GIsY6+78=
 github.com/boombuler/barcode v1.0.0 h1:s1TvRnXwL2xJRaccrdcBQMZxq6X7DvsMogtmJeHDdrc=
 github.com/boombuler/barcode v1.0.0/go.mod h1:paBWMcWSl3LHKBqUq+rly7CNSldXjb2rDl3JlRe0mD8=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=

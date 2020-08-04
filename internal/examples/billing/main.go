@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/Vale-sail/maroto/pkg/color"
-	"github.com/Vale-sail/maroto/pkg/consts"
-	"github.com/Vale-sail/maroto/pkg/pdf"
-	"github.com/Vale-sail/maroto/pkg/props"
 	"os"
 	"time"
+
+	"github.com/sean666888/maroto/pkg/color"
+	"github.com/sean666888/maroto/pkg/consts"
+	"github.com/sean666888/maroto/pkg/pdf"
+	"github.com/sean666888/maroto/pkg/props"
 )
 
 func main() {

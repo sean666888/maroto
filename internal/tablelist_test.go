@@ -2,14 +2,15 @@ package internal_test
 
 import (
 	"fmt"
-	"github.com/Vale-sail/maroto/internal"
-	"github.com/Vale-sail/maroto/internal/mocks"
-	"github.com/Vale-sail/maroto/pkg/color"
-	"github.com/Vale-sail/maroto/pkg/consts"
-	"github.com/Vale-sail/maroto/pkg/props"
+	"testing"
+
+	"github.com/sean666888/maroto/internal"
+	"github.com/sean666888/maroto/internal/mocks"
+	"github.com/sean666888/maroto/pkg/color"
+	"github.com/sean666888/maroto/pkg/consts"
+	"github.com/sean666888/maroto/pkg/props"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
-	"testing"
 )
 
 func TestNewTableList(t *testing.T) {

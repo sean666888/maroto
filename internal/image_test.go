@@ -3,15 +3,16 @@ package internal_test
 import (
 	"encoding/base64"
 	"fmt"
-	"github.com/Vale-sail/maroto/internal"
-	"github.com/Vale-sail/maroto/internal/mocks"
-	"github.com/Vale-sail/maroto/pkg/consts"
-	"github.com/Vale-sail/maroto/pkg/props"
-	"github.com/jung-kurt/gofpdf"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/mock"
 	"io/ioutil"
 	"testing"
+
+	"github.com/jung-kurt/gofpdf"
+	"github.com/sean666888/maroto/internal"
+	"github.com/sean666888/maroto/internal/mocks"
+	"github.com/sean666888/maroto/pkg/consts"
+	"github.com/sean666888/maroto/pkg/props"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/mock"
 )
 
 func TestNewImage(t *testing.T) {

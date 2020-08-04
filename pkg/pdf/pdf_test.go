@@ -3,15 +3,16 @@ package pdf_test
 import (
 	"bytes"
 	"fmt"
-	"github.com/Vale-sail/maroto/internal"
-	"github.com/Vale-sail/maroto/pkg/color"
 	"testing"
 
-	"github.com/Vale-sail/maroto/internal/mocks"
-	"github.com/Vale-sail/maroto/pkg/consts"
-	"github.com/Vale-sail/maroto/pkg/pdf"
-	"github.com/Vale-sail/maroto/pkg/props"
+	"github.com/sean666888/maroto/internal"
+	"github.com/sean666888/maroto/pkg/color"
+
 	"github.com/pkg/errors"
+	"github.com/sean666888/maroto/internal/mocks"
+	"github.com/sean666888/maroto/pkg/consts"
+	"github.com/sean666888/maroto/pkg/pdf"
+	"github.com/sean666888/maroto/pkg/props"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )
