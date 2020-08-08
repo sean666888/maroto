@@ -3,7 +3,7 @@ module github.com/sean666888/maroto
 go 1.13
 
 require (
-	github.com/sean666888/maroto v0.27.1
+	github.com/sean666888/maroto v0.27.3
 	github.com/boombuler/barcode v1.0.0
 	github.com/google/uuid v1.1.1
 	github.com/jung-kurt/gofpdf v1.4.2
